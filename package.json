@@ -24,6 +24,9 @@
     "url": "git+https://github.com/ReAlign/n-s-logs.git"
   },
   "author": "ReAlign",
+  "dependencies": {
+    "chalk": "^2.1.0"
+  },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-kaola": "^0.1.3",
