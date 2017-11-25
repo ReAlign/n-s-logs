@@ -15,8 +15,7 @@ let log = {
     info(str) {
         console.log(chalk.blue(`✏️ \t${str}`));
     },
-    show(str, logo) {
-        logo = logo || '';
+    show(str, logo = '') {
         if(logo) {
             str = `${logo} \t${str}`;
         }
